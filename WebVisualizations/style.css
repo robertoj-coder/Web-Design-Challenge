@@ -27,7 +27,12 @@ padding: 10px;
     
 }
 
-
+.top{
+    height: 225px;
+    width: 1110px;
+    overflow: hidden;
+    
+}
 
 #temp-p{
     float: left;
@@ -154,6 +159,12 @@ padding: 10px;
 }
 
 
+.table{
+    font-size: 15px; 
+    border-top-color: white !important; 
+  }
+
+
 @media(max-width: 992px){
     .navbar-expand-lg{
     background-color: lightseagreen !important;
@@ -216,5 +227,12 @@ padding: 10px;
     .fig-C{
         height: 400px;
         width: 400px;
+    }
+}
+
+@media(max-width:600px){
+    .top{
+        height: 200px;
+        width: 450px;
     }
 }
