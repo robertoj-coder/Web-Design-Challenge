@@ -39,6 +39,10 @@ padding: 10px;
     height:150px;
 }
 
+p{
+    text-align:justify;
+}
+
 
 /* #header-2{
     color: lightseagreen;
@@ -225,7 +229,7 @@ padding: 10px;
 
 @media(max-width:600px){
     .fig-C{
-        height: 400px;
+        height: 350px;
         width: 400px;
     }
 }
