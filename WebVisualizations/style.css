@@ -43,59 +43,6 @@ p{
     text-align:justify;
 }
 
-
-/* #header-2{
-    color: lightseagreen;
-    /* position: absolute;
-    top: 15%; */
-    
-}
-/* .fig-name{
-    background: white;
-    margin-top: 40px;
-    padding: 50px;
-    height: 400px;
-    position: relative;
-}
-
-
- .fig{
-    position: absolute;
-    height: 100px; 
-} 
-
-.temp-1 {
-    
-    left: 5%;
-  } 
-
-
-.hum-1{
-    right:10%;
-    
-}
-
-.cloud-1{
-    left: 5%;
-    bottom: 10%;
-}
-
-.wind-1{
-    right: 10%;
-    bottom: 10%;
-} */ 
-/* #cloud-1{
-    height:100px;
-}  */ 
-/* img{
-    width:50% !important;
-    height:50% !important; */
-  }
-  /* .active, .panel:hover{
-    border-color:#0BADA6;
-    border-style: solid; 
-    
-  } */
   .vizualization{
     width:50% !important;
     height:50% !important;
@@ -238,5 +185,12 @@ p{
     .top{
         height: 200px;
         width: 450px;
+    }
+}
+
+@media(max-width:400px){
+    .top{
+        height: 200px;
+        width: 200px;
     }
 }
