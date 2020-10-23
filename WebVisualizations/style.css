@@ -27,12 +27,12 @@ padding: 10px;
     
 }
 
-.top{
+/* .top{
     height: 225px;
     width: 1110px;
     overflow: hidden;
     
-}
+} */
 
 #temp-p{
     float: left;
@@ -181,17 +181,29 @@ p{
     }
 }
 
-@media(max-width:600px){
+ @media(max-width:900px){
     .top{
         height: 200px;
-        width: 450px;
+        width: 700px;
         left: 30px;
     }
 }
 
-@media(max-width:400px){
+
+@media(max-width:600px){
     .top{
+
+        background-attachment:scroll;
         height: 200px;
-        width: 200px;
-    }
-}
+        max-width:100%;
+        left: 30px;  
+    } 
+} 
+
+
+
+  /* img.top {
+    max-width:auto;
+    max-height:auto; */
+    
+  }
